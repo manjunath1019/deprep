@@ -1,3 +1,15 @@
+"""
+Given an integer list nums,
+return true if any element appears at least twice in the list,
+and
+return false if every element is distinct.
+
+nums =[1,1,1,3,3,4,3,2,4,2]
+return True
+
+nums = [1,2,3,4,6,7]
+return False
+"""
 def bruteForceSolution(nums):
     n =len(nums)
     for i in range(n):

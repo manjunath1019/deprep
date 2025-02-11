@@ -1,3 +1,22 @@
+"""
+Given two strings str1 and str2, return true if the two strings are anagrams of each other, otherwise return false.
+
+An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
+
+Example 1:
+
+Input: s = "racecar", t = "carrace"
+
+Output: true
+
+Example 2:
+
+Input: s = "jar", t = "jam"
+
+Output: false
+
+
+"""
 def bruteForceApproach(str1:str,str2:str):
     str1_len=len(str1.replace(" ",""))
     str2_len=len(str2.replace(" ",""))

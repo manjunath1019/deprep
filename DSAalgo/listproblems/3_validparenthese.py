@@ -1,3 +1,12 @@
+"""
+To find given parethese is valid or not
+
+input = [()]
+result : True
+
+input = [[{})]
+result = False
+"""
 def findValidparethese(str1):
     dict = {
         '(':')',

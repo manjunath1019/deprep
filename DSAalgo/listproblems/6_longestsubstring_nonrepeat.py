@@ -1,3 +1,17 @@
+"""
+Given a string s having lowercase characters,
+find the length of the longest substring without repeating characters.
+
+
+Input: s = “aaa”
+Output: 1
+Explanation: The longest substring without repeating characters is “a”
+
+Input: s = “abcdefabcbb”
+Output: 6
+Explanation: The longest substring without repeating characters is “abcdef”.
+
+"""
 def findLongestNonRepeating(str1):
     track = {}
     max_len=0

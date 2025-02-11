@@ -1,3 +1,23 @@
+"""
+Given an integer list nums sorted in non-decreasing order,
+remove the duplicates
+such that each unique element appears only once.
+The order of the elements should be same.
+Then return the number of unique elements in nums.
+
+    Input: arr[] = [2, 2, 2, 2, 2]
+    Output: [2]
+    Explanation: All the elements are 2, So only keep one instance of 2.
+
+    Input: arr[] = [1, 2, 2, 3, 4, 4, 4, 5, 5]
+    Output: [1, 2, 3, 4, 5]
+
+    Input: arr[] = [1, 2, 3]
+    Output: [1, 2, 3]
+    Explanation : No change as all elements are distinct.
+
+
+"""
 def bruteforceapproach(nums):
     pass
 

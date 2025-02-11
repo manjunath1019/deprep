@@ -1,3 +1,14 @@
+"""
+Find the maximum amount of water that can be contained between any two lines, together with the x-axis
+
+input = [1,5,4,3]
+
+output 6
+Explanation : 5 and 3 are distance apart so the size of the base = 2 and height of container min(5,3)  = 3
+so total area =3 * 2 =6
+
+"""
+
 #Brute force
 def containerMostWaterSolution1(list1):
     MAXAREA = 0
