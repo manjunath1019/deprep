@@ -1,7 +1,6 @@
 #Create Linked List
 # Display
 
-
 class Node:
     def __init__(self,data=None):
         self.data =data
@@ -56,5 +55,4 @@ l.delete_at_begning()
 #l.delte_at_last()
 
 l.display()
-
 print(l.head)
