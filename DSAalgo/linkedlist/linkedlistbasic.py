@@ -50,7 +50,7 @@ for i in range(3):
     n = input("Enter number: ")
     l.appened_data(n)
     l.display()
-input("Press enter to delete at the begning...: ")
+input("Press enter to delete at the beginning...: ")
 l.delete_at_begning()
 #l.delte_at_last()
 
